@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h1>Form Details and Buttons</h1>
+  <form action="/formSubmit">
+    <p>
+      <!-- for value should be the same with id -->
+      <label for="username">Enter your username:</label>
+      <input type='text' id="username" placeholder="username">
+    </p>
+    <p>
+      <label for="password">Enter your password:</label>
+      <input type='password' id="password" placeholder="password">
+    </p>
+    <p>
+      <label for="color">Select a color:</label>
+      <input type='color' id='color'>
+    </p>
+    <p>
+      <label>
+        Enter a number:
+        <input type='number' placeholder="enter a number">
+      </label>
+    </p>
+    <!-- Different behavior of buttons -->
+    <button>This will Submit</button>
+    <button type='button'>This will not Submit</button>
+    <button type="submit">This will Submit</button>
+  </form>
+  <button>Outside the form, nothing happens</button>
+</body>
+</html>
