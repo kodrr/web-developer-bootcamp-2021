@@ -10,22 +10,23 @@
   <h1>Form Details and Buttons</h1>
   <form action="/formSubmit">
     <p>
-      <!-- for value should be the same with id -->
+      <!-- for value should be the same with id so it will connect and name attribute will be the attribute when
+      you submit the form -->
       <label for="username">Enter your username:</label>
-      <input type='text' id="username" placeholder="username">
+      <input type='text' id="username" placeholder="username" name='username'>
     </p>
     <p>
       <label for="password">Enter your password:</label>
-      <input type='password' id="password" placeholder="password">
+      <input type='password' id="password" placeholder="password" name='password'>
     </p>
     <p>
       <label for="color">Select a color:</label>
-      <input type='color' id='color'>
+      <input type='color' id='color' name="color">
     </p>
     <p>
       <label>
         Enter a number:
-        <input type='number' placeholder="enter a number">
+        <input type='number' placeholder="enter a number" name="num">
       </label>
     </p>
     <!-- Different behavior of buttons -->
