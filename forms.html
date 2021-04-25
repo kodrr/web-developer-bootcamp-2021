@@ -29,11 +29,27 @@
         <input type='number' placeholder="enter a number" name="num">
       </label>
     </p>
+
     <!-- Different behavior of buttons -->
     <button>This will Submit</button>
     <button type='button'>This will not Submit</button>
     <button type="submit">This will Submit</button>
   </form>
   <button>Outside the form, nothing happens</button>
+
+  <h2>More inputs</h2>
+  <form action="/birds">
+    <input type='checkbox' name="agree_tos" id="agree">
+    <label for="agree">I agree to everything</label>
+    <p>
+      <label for="xs">XS:</label>
+      <input type="radio" name="size" id="xs" value="xs">
+      <label for="s">S:</label>
+      <input type="radio" name="size" id="s" value="s">
+      <label for="m">M:</label>
+      <input type="radio" name="size" id="m" value="m">
+    </p>
+    <button></button>
+  </form>
 </body>
 </html>
