@@ -26,7 +26,7 @@
     <p>
       <label>
         Enter a number:
-        <input type='number' placeholder="enter a number" name="num">
+        <input type='number' placeholder="enter a number" name="num" min="1" max="10" step="2">
       </label>
     </p>
 
@@ -54,8 +54,21 @@
       <select id='meal' name='meal'>
         <option value='fish'>Fish</option>
         <option value='veg'>Vegetarian</option>
-        <option value='steak'>Steak</option>
+        <option value='steak' selected>Steak</option>
       </select>
+    </p>
+    <button>Submit</button>
+  </form>
+
+  <form action="/form2">
+    <p>
+      <label for="cheese">Amount of cheese</label>
+      <input type="range" id='cheese' name='cheese_level' min="1" max="100" step="10" value="75">
+    </p>
+    <p>
+      <label for="request">Any special Requests:</label>
+      <br>
+      <textarea id="reqiest" name="requests" rows="10" cols="60" placeholder="type your requests here"></textarea>
     </p>
     <button>Submit</button>
   </form>
