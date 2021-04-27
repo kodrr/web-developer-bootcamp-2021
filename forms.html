@@ -38,7 +38,7 @@
   <button>Outside the form, nothing happens</button>
 
   <h2>More inputs</h2>
-  <form action="/birds">
+  <form action="/form1">
     <input type='checkbox' name="agree_tos" id="agree">
     <label for="agree">I agree to everything</label>
     <p>
@@ -49,7 +49,15 @@
       <label for="m">M:</label>
       <input type="radio" name="size" id="m" value="m">
     </p>
-    <button></button>
+    <p>
+      <label for="meal">Please Select Entrees</label>
+      <select id='meal' name='meal'>
+        <option value='fish'>Fish</option>
+        <option value='veg'>Vegetarian</option>
+        <option value='steak'>Steak</option>
+      </select>
+    </p>
+    <button>Submit</button>
   </form>
 </body>
 </html>
