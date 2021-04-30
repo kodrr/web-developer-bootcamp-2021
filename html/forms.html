@@ -72,5 +72,19 @@
     </p>
     <button>Submit</button>
   </form>
+  <h2>Validations Demo</h2>
+  <form action="/validate">
+    <label for="firstName">Enter First Name</label>
+    <input type="text" id="firstName" name="firstname" required>
+    <p>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+    </p>
+    <p>
+      <input type="email" required>
+      <input type="url">
+    </p>
+    <button>Submit</button>
+  </form>
 </body>
 </html>
