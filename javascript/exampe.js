@@ -1,3 +1,4 @@
-console.log('hello world');
-
-alert('doge is broke ema50');
+function cyrpto () {
+  alert('doge is scam');
+}
+crypto();
