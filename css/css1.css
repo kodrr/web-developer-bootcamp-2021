@@ -1,0 +1,21 @@
+body {
+  background-color: goldenrod;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: magenta;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+button {
+  color: red;
+  background-color: pink;
+}
