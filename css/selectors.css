@@ -1,0 +1,29 @@
+header a {
+  font-size: 30px;
+  color: teal;
+}
+/* a element is a descendant of header */
+
+#dislikes a {
+  font-weight: bold;
+  color: red;
+}
+/* a  element is a descendant if element with id dislikes */
+footer > a {
+  color: #457b9d;
+}
+/* a is direct child of footer one level donw, not nested to another element */
+h2 + button {
+  font-size: 20px;
+}
+/* h2 is adjacent to button, meaning same level */
+
+input[type='password'] {
+  color: greenyellow;
+}
+/* input element with type attribute and value is passsword */
+
+a[href*='google'] {
+  color: magenta;
+}
+/* a element with href attribute that matches with *google */
