@@ -1,0 +1,23 @@
+button:hover {
+  color: blueviolet;
+  background-color: brown;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+/* hover over a button inside a class post */
+
+.post button:active {
+  background-color: aqua;
+}
+
+.post:nth-of-type(3) {
+  background-color: cadetblue;
+}
+/* the third item in the list with a class post */
+
+.post:nth-of-type(3n) {
+  background-color: cadetblue;
+}
+/* every third item in the list with a class post, that can be 2n */

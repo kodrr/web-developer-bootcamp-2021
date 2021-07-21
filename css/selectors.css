@@ -20,6 +20,7 @@ h1, h2 {
 .complete {
   color: green;
 }
+/* class selector */
 
 header a {
   font-size: 30px;
