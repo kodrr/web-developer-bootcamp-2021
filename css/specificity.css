@@ -1,0 +1,16 @@
+.post button:hover{
+  background-color: tomato;
+  color: bisque;
+}
+
+button:hover{
+  background-color: chartreuse;
+  font-size: 10px;
+}
+
+/* Inline styles > IDs > Classes, attributes and pseudo-classes > Elements and pseudo-elements
+inline style is more specific than id, id is more specific than class and element, class is more specific than element
+avoid inline styles
+!important - most especific nothing to do with specificity it just wins automatically
+
+if element has no style they will INHERIT the style from the parent element */
