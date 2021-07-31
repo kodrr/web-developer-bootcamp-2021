@@ -1,0 +1,14 @@
+h2::first-letter {
+  font-size: 50px;
+}
+/* every first letter of every h2 */
+
+p::first-line {
+  color: purple;
+}
+/* every first line of every p */
+
+p::selection {
+  color:  yellow;
+}
+/* every selection (highlight) in every p */
